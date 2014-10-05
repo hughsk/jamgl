@@ -1,0 +1,34 @@
+{
+  "name": "jamgl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "linklocal -r && NODE_ENV=development node server.js",
+    "postinstall": "npm dedupe"
+  },
+  "private": true,
+  "author": "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "@jamgl/auth": "file:jamgl-auth",
+    "@jamgl/config": "file:jamgl-config",
+    "@jamgl/db": "file:jamgl-db",
+    "@jamgl/session-store": "file:jamgl-session-store",
+    "@jamgl/views": "file:jamgl-views",
+    "body-parser": "^1.9.0",
+    "browserify": "^6.0.2",
+    "cookie-parser": "^1.3.3",
+    "course": "0.0.1",
+    "express-session": "^1.8.2",
+    "passport": "^0.2.1",
+    "passport-local": "^1.0.0",
+    "response-redirect": "0.0.1",
+    "watchify": "^1.0.6",
+    "watchify-request": "^1.0.0"
+  },
+  "devDependencies": {
+    "linklocal": "^2.0.1"
+  }
+}

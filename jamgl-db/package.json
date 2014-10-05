@@ -1,0 +1,9 @@
+{
+  "name": "@jamgl/db",
+  "version": "1.0.0",
+  "dependencies": {
+    "bcrypt": "^0.8.0",
+    "level": "^0.18.0",
+    "level-sublevel": "^6.3.13"
+  }
+}

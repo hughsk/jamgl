@@ -1,0 +1,11 @@
+{
+  "name": "@jamgl/views",
+  "version": "1.0.0",
+  "dependencies": {
+    "@jamgl/config": "file:../jamgl-config",
+    "fs-readdir-recursive": "0.0.2",
+    "lodash.memoize": "^2.4.1",
+    "minstache": "^1.2.0",
+    "sliced": "0.0.5"
+  }
+}
